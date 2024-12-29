@@ -1,3 +1,4 @@
+import random
 def bubble_sort(arr):
     n = len(arr)
     # Iterate over the array
@@ -9,7 +10,7 @@ def bubble_sort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
 def main():
-    arr = [42, 35, 12, 92, 65, 10, 23, 75, 81, 9]
+    arr = [random.randint(0, 100) for _ in range(10)]
     print("Original list:", arr)
     
     bubble_sort(arr)
