@@ -1,0 +1,6 @@
+Arabic:95.0
+English:98.0
+physics:100.0
+chemistry:98.0
+social studies:100.0
+math:100.0
